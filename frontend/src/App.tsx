@@ -119,7 +119,7 @@ class App extends PureComponent<Props, State> {
       reportHash: null,
       reportRunState: ReportRunState.NOT_RUNNING,
       userSettings: {
-        wideMode: false,
+        wideMode: true,
         runOnSave: false,
       },
     }
